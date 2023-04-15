@@ -1,0 +1,38 @@
+/*
+Colors:
+blank - #FFFFFF
+text - #000000
+primary - #AF2828
+secondary - #DF5D5F
+accent - #2B6778
+*/
+
+/*** Tag selectors ***/
+body {
+    margin: 0;
+}
+nav {
+    display: flex;
+    padding:0;
+    flex: 1;
+}
+h1 {
+    text-align: center;
+}
+button {
+    border: none;
+    color: #FFFFFF;
+    background-color:#AF2828;
+}
+button:hover {
+    background-color: #DF5D5F;
+}
+button:active {
+    background-color: #2B6778;
+}
+section {
+    text-align: center;
+}
+nav button {
+    size:10%;
+}
