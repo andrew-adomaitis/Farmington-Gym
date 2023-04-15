@@ -24,6 +24,7 @@ nav img {
 button {
     border: none;
     background-color:#AF2828;
+    color:#FFFFFF;
 }
 button h2 {
     color: #FFFFFF;
@@ -82,6 +83,9 @@ footer h2 {
 .footer-flex {
     display: flex;
     align-content: space-evenly;
+}
+.footer-flex button {
+    font-size: 1.5em;
 }
 
 /** ID Selectors **/
