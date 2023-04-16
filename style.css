@@ -103,7 +103,11 @@ ul {
 }
 .footer-flex {
     display: flex;
-    align-content: space-evenly;
+    width: 100%;
+    align-content:space-between;
+}
+.footer-flex div {
+    width: 50%;
 }
 .footer-flex button {
     font-size: 1.5rem;
