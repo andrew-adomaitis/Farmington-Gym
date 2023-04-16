@@ -78,7 +78,7 @@ header button {
     font-size: 1rem;
 }
 footer {
-    background-color: #2B6778;
+    background-color: #AF2828;
     text-align: center;
 }
 footer h2 {
@@ -105,6 +105,7 @@ ul {
     display: flex;
     width: 100%;
     align-content:space-between;
+    background-color: #2B6778;
 }
 .footer-flex div {
     width: 50%;
@@ -115,6 +116,12 @@ ul {
 .date {
     color: #AF2828;
     text-decoration: underline;
+}
+.name-form {
+    width: 10%;
+}
+.selected {
+    background-color: #DF5D5F;
 }
 
 /** ID Selectors **/
@@ -128,4 +135,12 @@ ul {
 }
 #header-panel button h2 {
     font-size: 1rem;
+}
+#schedule-example {
+    width: 10%;
+    height: 10%;
+}
+#schedule-key {
+    margin-left: 20%;
+    float: left;
 }
