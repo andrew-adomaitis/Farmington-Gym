@@ -9,6 +9,12 @@
             "request": "launch",
             "name": "Open home.html",
             "file": "c:\\Users\\theel\\Documents\\GitHub\\Farmington-Gym\\home.html"
+        },
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open memberships.html",
+            "file": "c:\\Users\\theel\\Documents\\GitHub\\Farmington-Gym\\memberships.html"
         }
     ]
 }
