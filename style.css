@@ -37,7 +37,7 @@ button {
 button h2 {
     color: #FFFFFF;
 }
-button h2 a {
+button h2 a, button a {
     color: #FFFFFF;
     font-size: 1.5rem;
     text-decoration: none;
