@@ -139,6 +139,12 @@ ul {
 .employee h2 {
     color: #DF5D5F;
 }
+.price {
+    color: #2B6778;
+}
+.centered-paragraph {
+    text-align: center;
+}
 
 /** ID Selectors **/
 #header-panel {
@@ -159,4 +165,13 @@ ul {
 #schedule-key {
     margin-left: 20%;
     float: left;
+}
+#store {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#store img {
+    width: 200px;
+    align-items: center;
 }
