@@ -17,13 +17,31 @@
             <button><h2><a href="store.html">Store</a></h2></button>
         </nav>
         <header>
-            <h1>Staff</h1>
+            <h1>Sign Up</h1>
             <div id="header-panel">
-                <p>Looking to sign up?<br>View our<p>
-                <button><h2>Membership Options</h2></button>
+                <p>Add your name, phone number, and membership selection.<br>
+                    We will handle payment in person<p>
             </div>
         </header>
+        <!--TODO: clean this up w/ CSS-->
+        <section>
+            <h2>Select Your Plan</h2>
+            <form>
+                <label for="name">Enter your name:</label>
+                <input type="name" placeholder="ex: John Smith">
 
+                <label for="number">Enter your phone number</label>
+                <input type="number" placeholder="ex: 123-456-7890">
+                <label for="plan">Choose a membership plan:</label>
+                <select name="plan">
+                    <option>Basic</option>
+                    <option>Plus</option>
+                    <option>Premium</option>
+                </select>
+                <input type="submit">
+                <input type="reset">
+            </form>
+        </section>
         <footer>
             <h2>Contact us</h2>
             <div class="footer-flex">
