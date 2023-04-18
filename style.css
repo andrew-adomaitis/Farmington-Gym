@@ -123,6 +123,21 @@ ul {
 .selected {
     background-color: #DF5D5F;
 }
+.column-left {
+    float: left;
+    width: 33.333%;
+}
+.column-center {
+    display: inline-block;
+    width: 33.333%;
+}
+.column-right {
+    float: right;
+    width: 33.333%;
+}
+.employee h2 {
+    color: #DF5D5F;
+}
 
 /** ID Selectors **/
 #header-panel {
